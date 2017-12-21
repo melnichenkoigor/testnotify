@@ -1,0 +1,212 @@
+body {
+    background-color: #E4E4E4 !important;
+    font: 16px "Roboto Condensed";
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.top_line {
+    height: 10px;
+    background-color: #00CD6B;
+}
+
+.header {
+    background-image: url("../img/header_image.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 520px;
+    background-position: center;
+    background-size: cover;   
+}
+
+.notify_head {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 160px;
+}
+
+.notify_head h1 {
+    font-family: Pacifico;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-size: 38px;
+
+}
+
+.notify_head span {
+    color: #00CD6B;
+}
+
+.notify_head p {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.notify_head .social_head i {
+    font-size: 25px;
+    color: rgba(255, 255, 255, .5)
+
+}
+
+.notify_head .social_head {
+    padding: 0;
+}
+
+.notify_head .social_head li {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 13px 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notify_head .social_head li:hover {
+    background-color: #00CD6B; 
+}
+
+.notify_head .social_head i:hover {
+    color: rgba(255, 255, 255, .9)
+}
+
+.features {
+    background-color: white;
+}
+
+.features_descr {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.features_descr h4 {
+    margin-top: 40px;
+}
+
+.features_descr p {
+    color: #858585;
+}
+
+.icon_cont {
+    display: inline;
+    padding: 25px 20px 20px;
+    background-color: #00CD6B;
+    border-radius: 50%;
+}
+
+.icon_cont i {
+    font-size: 26px;
+    color: white;
+}
+
+.left_noti {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.right_noti {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.right_noti img {
+    border-radius: 10px;
+}
+
+form {
+    display: inline;
+}
+
+.left_noti input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #858585;
+}
+
+.left_noti button {
+    position: absolute;
+    left: 180px;
+    padding: 10px 20px;
+    background-color: #00CD6B;
+    color: white;
+    letter-spacing: 3px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.comand {
+    background-color: white;
+}
+
+.comand blockquote {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto 20px;
+}
+
+.comand h4 {
+    text-align: center;
+}
+
+.comand_human .person {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.comand_human .person:hover {
+    cursor: pointer;    
+    background-color: #00CD6B !important;
+    opacity: .8;
+}
+
+.comand h3 {
+    text-align: center;
+}
+
+.comand p {
+    text-align: center;
+    color: #858585;
+}
+
+.social_bottom ul {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.social_bottom .social_rank li {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 11px 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.social_bottom .social_rank li:hover {
+    background-color: #00CD6B;
+}
+
+footer {
+    height: 100px;
+}
+
+.footer_nav {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_nav li {
+    padding: 20px;
+    color: #858585;
+}
